@@ -1,0 +1,33 @@
+Started GET "/cstrophy" for 127.0.0.1 at 2025-04-22 02:42:09 +0530
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY) /*application='CsExibit'*/[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='CsExibit'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='CsExibit'*/[0m
+  
+ActionController::RoutingError (No route matches [GET] "/cstrophy"):
+  
+Started GET "/cstrophy" for 127.0.0.1 at 2025-04-22 02:42:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/cstrophy"):
+  
+Started GET "/" for 127.0.0.1 at 2025-04-22 02:42:37 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/imthiyash/.asdf/installs/ruby/3.3.6/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/imthiyash/.asdf/installs/ruby/3.3.6/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 65ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-04-22 02:42:38 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/imthiyash/.asdf/installs/ruby/3.3.6/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/imthiyash/.asdf/installs/ruby/3.3.6/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 30ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-04-22 02:42:53 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='CsExibit'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/imthiyash/.asdf/installs/ruby/3.3.6/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/imthiyash/.asdf/installs/ruby/3.3.6/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 63ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
